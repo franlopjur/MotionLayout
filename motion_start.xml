@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.motion.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:applyMotionScene="true"
+    app:layoutDescription="@xml/animation_motion_scene"
+    app:showPaths="true"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/motion__imagen__a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_betabeers" />
+
+    <ImageView
+        android:id="@+id/motion__imagen__b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_betabeers" />
+
+    <ImageView
+        android:id="@+id/motion__imagen__c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_betabeers" />
+
+</android.support.constraint.motion.MotionLayout>
